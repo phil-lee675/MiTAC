@@ -10,10 +10,23 @@ npm install
 
 > Playwright requires browser binaries. Run `npx playwright install` once after install.
 
+### Windows 11 quick start (.bat)
+
+```bat
+scripts\\install.bat
+scripts\\setup-playwright.bat
+```
+
 ## Harvest
 
 ```bash
 npm run harvest
+```
+
+Windows 11:
+
+```bat
+scripts\\harvest.bat
 ```
 
 Outputs:
@@ -30,6 +43,12 @@ The harvester respects `robots.txt`, rate limits (1–2 req/sec), retries with e
 npm run dev
 ```
 
+Windows 11:
+
+```bat
+scripts\\dev.bat
+```
+
 ## Regenerate index
 
 Re-run harvest to rebuild `catalog/index.json` and tags.
@@ -43,6 +62,12 @@ Re-run harvest to rebuild `catalog/index.json` and tags.
 
 ```bash
 npm test
+```
+
+Windows 11:
+
+```bat
+scripts\\test.bat
 ```
 
 Snapshot fixtures live in `tests/fixtures/` and validate parser output.
