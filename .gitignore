@@ -1,0 +1,7 @@
+node_modules/
+.next/
+.DS_Store
+.env
+harvester/cache/*.html
+catalog/raw/*.html
+catalog/logs/*.log
