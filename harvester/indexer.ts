@@ -11,6 +11,7 @@ export async function writeCatalogArtifacts(
   await fs.writeFile(productsPath, JSON.stringify(products, null, 2));
 
   const miniSearch = new MiniSearch({
+    idField: "sku",
     fields: ["sku", "name", "family"],
     storeFields: ["sku", "tags", "solution_categories", "form_factor"]
   });
