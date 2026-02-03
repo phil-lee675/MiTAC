@@ -15,6 +15,9 @@ npm install
 
 > Playwright requires browser binaries. Run `npx playwright install` once after install.
 
+### Windows 11 quick start (.bat)
+
+```bat
 All-in-one setup (installs npm dependencies and Playwright browsers):
 
 ```bat

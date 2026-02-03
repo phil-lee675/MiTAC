@@ -40,6 +40,13 @@ function extractLinks(html: string, baseUrl: string) {
 }
 
 function isProductUrl(url: string) {
+  try {
+    const parsed = new URL(url);
+    if (!parsed.hostname.includes("mitaccomputing.com")) return false;
+    return /^\/(products|product|solutions)\/[^/]+\/?$/.test(parsed.pathname);
+  } catch {
+    return false;
+  }
   return /mitaccomputing\.com\/(products|product|solutions)\//.test(url);
 }
 
