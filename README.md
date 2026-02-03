@@ -2,6 +2,11 @@
 
 TypeScript-first catalog harvester + browser for MiTAC Computing SKUs.
 
+## Requirements
+
+- Node.js 18+ (includes npm).
+- Playwright browser binaries (installed via `npx playwright install`).
+
 ## Install
 
 ```bash
