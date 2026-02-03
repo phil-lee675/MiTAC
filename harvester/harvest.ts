@@ -47,6 +47,7 @@ function isProductUrl(url: string) {
   } catch {
     return false;
   }
+  return /mitaccomputing\.com\/(products|product|solutions)\//.test(url);
 }
 
 async function main() {
