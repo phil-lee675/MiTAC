@@ -1,351 +1,7 @@
-// Vitest Snapshot v1, https://vitest.dev/guide/snapshot.html
-
-exports[`parseSkuPage > parses sku-a100.html 1`] = `
+exports[`parseSkuPage parses sku-g8825z5.html 1`] = `
 {
-  "cooling": {
-    "mode": "air",
-    "notes": "Air cooling",
-  },
-  "cpu_family": "Intel Xeon",
-  "cpu_vendor": "intel",
-  "data_quality": {
-    "missing_fields": [
-      "family",
-      "node_density",
-      "networking",
-      "gpu_support",
-      "power_notes",
-    ],
-    "parse_warnings": [],
-  },
-  "family": null,
-  "form_factor": "2U",
-  "gpu_support": {
-    "max_gpu_count": null,
-    "notes": null,
-    "supported": null,
-  },
-  "last_seen_at": "2024-01-01T00:00:00.000Z",
-  "management": {
-    "bmc": true,
-    "notes": "BMC/IPMI",
-  },
-  "max_memory_tb": 6,
-  "memory_slots": 24,
-  "memory_type": "DDR5 RDIMM",
-  "name": "A100",
-  "networking": {
-    "notes": null,
-    "ocp_mezz": null,
-    "ocp_mezz_count": null,
-  },
-  "node_density": null,
-  "pcie_gen": "PCIe 5.0",
-  "power_notes": null,
-  "sku": "A100",
-  "sockets": 2,
-  "solution_categories": [
-    "AI",
-    "HPC",
-  ],
-  "source_url": "https://www.mitaccomputing.com/A100",
-  "storage_bays": [
-    {
-      "count": 8,
-      "hot_swap": true,
-      "type": "8x NVMe U.2 hot-swap",
-    },
-  ],
-  "tags": [
-    "cpu:intel",
-    "socket:2",
-    "ddr5",
-    "rdimm",
-    "pcie:5.0",
-    "form:2u",
-    "nvme:u2",
-  ],
-}
-`;
-
-exports[`parseSkuPage > parses sku-b200.html 1`] = `
-{
-  "cooling": {
-    "mode": null,
-    "notes": null,
-  },
-  "cpu_family": "AMD EPYC",
-  "cpu_vendor": "amd",
-  "data_quality": {
-    "missing_fields": [
-      "family",
-      "node_density",
-      "max_memory_tb",
-      "power_notes",
-      "cooling",
-      "management",
-    ],
-    "parse_warnings": [],
-  },
-  "family": null,
-  "form_factor": "4U",
-  "gpu_support": {
-    "max_gpu_count": 4,
-    "notes": "Up to 4 GPUs",
-    "supported": true,
-  },
-  "last_seen_at": "2024-01-01T00:00:00.000Z",
-  "management": {
-    "bmc": null,
-    "notes": null,
-  },
-  "max_memory_tb": null,
-  "memory_slots": 32,
-  "memory_type": "DDR4 RDIMM",
-  "name": "B200",
-  "networking": {
-    "notes": "OCP 3.0 mezz",
-    "ocp_mezz": true,
-    "ocp_mezz_count": 3,
-  },
-  "node_density": null,
-  "pcie_gen": "PCIe Gen4",
-  "power_notes": null,
-  "sku": "B200",
-  "sockets": 2,
-  "solution_categories": [
-    "Cloud",
-  ],
-  "source_url": "https://www.mitaccomputing.com/B200",
-  "storage_bays": [
-    {
-      "count": 12,
-      "hot_swap": true,
-      "type": "12x SATA/SAS hot-swap",
-    },
-  ],
-  "tags": [
-    "cpu:amd",
-    "socket:2",
-    "rdimm",
-    "pcie:gen4",
-    "form:4u",
-    "gpu:4",
-  ],
-}
-`;
-
-exports[`parseSkuPage > parses sku-c300.html 1`] = `
-{
-  "cooling": {
-    "mode": "liquid-ready",
-    "notes": "Liquid ready",
-  },
-  "cpu_family": "Intel Xeon D",
-  "cpu_vendor": "intel",
-  "data_quality": {
-    "missing_fields": [
-      "family",
-      "node_density",
-      "max_memory_tb",
-      "pcie_gen",
-      "networking",
-      "gpu_support",
-      "power_notes",
-      "management",
-    ],
-    "parse_warnings": [],
-  },
-  "family": null,
-  "form_factor": "1U",
-  "gpu_support": {
-    "max_gpu_count": null,
-    "notes": null,
-    "supported": null,
-  },
-  "last_seen_at": "2024-01-01T00:00:00.000Z",
-  "management": {
-    "bmc": null,
-    "notes": null,
-  },
-  "max_memory_tb": null,
-  "memory_slots": 8,
-  "memory_type": "DDR5",
-  "name": "C300",
-  "networking": {
-    "notes": null,
-    "ocp_mezz": null,
-    "ocp_mezz_count": null,
-  },
-  "node_density": null,
-  "pcie_gen": null,
-  "power_notes": null,
-  "sku": "C300",
-  "sockets": 1,
-  "solution_categories": [
-    "OCP",
-  ],
-  "source_url": "https://www.mitaccomputing.com/C300",
-  "storage_bays": [
-    {
-      "count": 4,
-      "hot_swap": null,
-      "type": "4x NVMe E1.S",
-    },
-  ],
-  "tags": [
-    "cpu:intel",
-    "socket:1",
-    "ddr5",
-    "form:1u",
-    "nvme:e1s",
-  ],
-}
-`;
-
-exports[`parseSkuPage > parses sku-d400.html 1`] = `
-{
-  "cooling": {
-    "mode": "air",
-    "notes": "Air cooling",
-  },
-  "cpu_family": "AMD EPYC",
-  "cpu_vendor": "amd",
-  "data_quality": {
-    "missing_fields": [
-      "family",
-      "node_density",
-      "networking",
-      "gpu_support",
-      "power_notes",
-      "management",
-    ],
-    "parse_warnings": [],
-  },
-  "family": null,
-  "form_factor": "2U",
-  "gpu_support": {
-    "max_gpu_count": null,
-    "notes": null,
-    "supported": null,
-  },
-  "last_seen_at": "2024-01-01T00:00:00.000Z",
-  "management": {
-    "bmc": null,
-    "notes": null,
-  },
-  "max_memory_tb": 4,
-  "memory_slots": 16,
-  "memory_type": "DDR5 RDIMM",
-  "name": "D400",
-  "networking": {
-    "notes": null,
-    "ocp_mezz": null,
-    "ocp_mezz_count": null,
-  },
-  "node_density": null,
-  "pcie_gen": "PCIe 5.0",
-  "power_notes": null,
-  "sku": "D400",
-  "sockets": 1,
-  "solution_categories": [
-    "ORAN",
-  ],
-  "source_url": "https://www.mitaccomputing.com/D400",
-  "storage_bays": [
-    {
-      "count": 10,
-      "hot_swap": null,
-      "type": "10x NVMe U.3",
-    },
-  ],
-  "tags": [
-    "cpu:amd",
-    "socket:1",
-    "ddr5",
-    "rdimm",
-    "pcie:5.0",
-    "form:2u",
-    "nvme:u2",
-  ],
-}
-`;
-
-exports[`parseSkuPage > parses sku-e500.html 1`] = `
-{
-  "cooling": {
-    "mode": null,
-    "notes": null,
-  },
-  "cpu_family": "Intel Xeon",
-  "cpu_vendor": "intel",
-  "data_quality": {
-    "missing_fields": [
-      "family",
-      "node_density",
-      "max_memory_tb",
-      "networking",
-      "power_notes",
-      "cooling",
-      "management",
-    ],
-    "parse_warnings": [],
-  },
-  "family": null,
-  "form_factor": "8U",
-  "gpu_support": {
-    "max_gpu_count": 8,
-    "notes": "Up to 8 GPUs",
-    "supported": true,
-  },
-  "last_seen_at": "2024-01-01T00:00:00.000Z",
-  "management": {
-    "bmc": null,
-    "notes": null,
-  },
-  "max_memory_tb": null,
-  "memory_slots": 48,
-  "memory_type": "DDR5 RDIMM",
-  "name": "E500",
-  "networking": {
-    "notes": null,
-    "ocp_mezz": null,
-    "ocp_mezz_count": null,
-  },
-  "node_density": null,
-  "pcie_gen": "PCIe 5.0",
-  "power_notes": null,
-  "sku": "E500",
-  "sockets": 4,
-  "solution_categories": [
-    "AI",
-    "LiquidCooling",
-  ],
-  "source_url": "https://www.mitaccomputing.com/E500",
-  "storage_bays": [
-    {
-      "count": 24,
-      "hot_swap": true,
-      "type": "24x NVMe U.2 hot-swap",
-    },
-  ],
-  "tags": [
-    "cpu:intel",
-    "socket:4",
-    "ddr5",
-    "rdimm",
-    "pcie:5.0",
-    "form:8u",
-    "gpu:8",
-    "nvme:u2",
-  ],
-}
-`;
-
-exports[`parseSkuPage parses sku-a100.html 1`] = `
-{
-  "sku": "A100",
-  "name": "A100",
+  "sku": "G8825Z5",
+  "name": "G8825Z5",
   "family": null,
   "solution_categories": [
     "AI",
@@ -395,7 +51,7 @@ exports[`parseSkuPage parses sku-a100.html 1`] = `
     "form:2u",
     "nvme:u2"
   ],
-  "source_url": "https://www.mitaccomputing.com/A100",
+  "source_url": "https://www.mitaccomputing.com/G8825Z5",
   "last_seen_at": "2024-01-01T00:00:00.000Z",
   "data_quality": {
     "missing_fields": [
@@ -410,10 +66,10 @@ exports[`parseSkuPage parses sku-a100.html 1`] = `
 }
 `;
 
-exports[`parseSkuPage parses sku-b200.html 1`] = `
+exports[`parseSkuPage parses sku-g4826z5.html 1`] = `
 {
-  "sku": "B200",
-  "name": "B200",
+  "sku": "G4826Z5",
+  "name": "G4826Z5",
   "family": null,
   "solution_categories": [
     "Cloud"
@@ -461,7 +117,7 @@ exports[`parseSkuPage parses sku-b200.html 1`] = `
     "form:4u",
     "gpu:4"
   ],
-  "source_url": "https://www.mitaccomputing.com/B200",
+  "source_url": "https://www.mitaccomputing.com/G4826Z5",
   "last_seen_at": "2024-01-01T00:00:00.000Z",
   "data_quality": {
     "missing_fields": [
@@ -477,10 +133,10 @@ exports[`parseSkuPage parses sku-b200.html 1`] = `
 }
 `;
 
-exports[`parseSkuPage parses sku-c300.html 1`] = `
+exports[`parseSkuPage parses sku-g4527z5.html 1`] = `
 {
-  "sku": "C300",
-  "name": "C300",
+  "sku": "G4527Z5",
+  "name": "G4527Z5",
   "family": null,
   "solution_categories": [
     "OCP"
@@ -527,7 +183,7 @@ exports[`parseSkuPage parses sku-c300.html 1`] = `
     "form:1u",
     "nvme:e1s"
   ],
-  "source_url": "https://www.mitaccomputing.com/C300",
+  "source_url": "https://www.mitaccomputing.com/G4527Z5",
   "last_seen_at": "2024-01-01T00:00:00.000Z",
   "data_quality": {
     "missing_fields": [
@@ -545,10 +201,10 @@ exports[`parseSkuPage parses sku-c300.html 1`] = `
 }
 `;
 
-exports[`parseSkuPage parses sku-d400.html 1`] = `
+exports[`parseSkuPage parses sku-g4525z5.html 1`] = `
 {
-  "sku": "D400",
-  "name": "D400",
+  "sku": "G4525Z5",
+  "name": "G4525Z5",
   "family": null,
   "solution_categories": [
     "ORAN"
@@ -597,7 +253,7 @@ exports[`parseSkuPage parses sku-d400.html 1`] = `
     "form:2u",
     "nvme:u2"
   ],
-  "source_url": "https://www.mitaccomputing.com/D400",
+  "source_url": "https://www.mitaccomputing.com/G4525Z5",
   "last_seen_at": "2024-01-01T00:00:00.000Z",
   "data_quality": {
     "missing_fields": [
@@ -613,10 +269,10 @@ exports[`parseSkuPage parses sku-d400.html 1`] = `
 }
 `;
 
-exports[`parseSkuPage parses sku-e500.html 1`] = `
+exports[`parseSkuPage parses sku-g2220z5.html 1`] = `
 {
-  "sku": "E500",
-  "name": "E500",
+  "sku": "G2220Z5",
+  "name": "G2220Z5",
   "family": null,
   "solution_categories": [
     "AI",
@@ -667,7 +323,7 @@ exports[`parseSkuPage parses sku-e500.html 1`] = `
     "gpu:8",
     "nvme:u2"
   ],
-  "source_url": "https://www.mitaccomputing.com/E500",
+  "source_url": "https://www.mitaccomputing.com/G2220Z5",
   "last_seen_at": "2024-01-01T00:00:00.000Z",
   "data_quality": {
     "missing_fields": [

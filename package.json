@@ -9,7 +9,6 @@
     "start": "next start",
     "lint": "next lint",
     "harvest": "node --loader ts-node/esm --experimental-specifier-resolution=node harvester/harvest.ts",
-    "harvest": "node --loader ts-node/esm harvester/harvest.ts",
     "test": "vitest run",
     "test:watch": "vitest"
   },

@@ -18,16 +18,6 @@ npm install
 ### Windows 11 quick start (.bat)
 
 ```bat
-All-in-one setup (installs npm dependencies and Playwright browsers):
-
-```bat
-scripts\\setup.bat
-```
-
-### Windows 11 quick start (.bat)
-
-```bat
-scripts\\setup.bat
 scripts\\install.bat
 scripts\\setup-playwright.bat
 ```

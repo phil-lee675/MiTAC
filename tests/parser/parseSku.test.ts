@@ -4,11 +4,11 @@ import { describe, expect, it } from "vitest";
 import { parseSkuPage } from "../../harvester/parser";
 
 const fixtures = [
-  "sku-a100.html",
-  "sku-b200.html",
-  "sku-c300.html",
-  "sku-d400.html",
-  "sku-e500.html"
+  "sku-g8825z5.html",
+  "sku-g4826z5.html",
+  "sku-g4527z5.html",
+  "sku-g4525z5.html",
+  "sku-g2220z5.html"
 ];
 
 describe("parseSkuPage", () => {
