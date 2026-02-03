@@ -88,7 +88,7 @@ export function parseSkuPage(
   const sku = url.split("/").filter(Boolean).pop() ?? title;
   const cleanedSku = sku?.split("?")[0] ?? "";
 
-  const name = findLabelValue($, labelMap.name) ?? title || null;
+  const name = findLabelValue($, labelMap.name) ?? title ?? null;
   const family = findLabelValue($, labelMap.family);
   const formFactor = findLabelValue($, labelMap.form_factor);
   const nodeDensity = findLabelValue($, labelMap.node_density);
@@ -106,7 +106,7 @@ export function parseSkuPage(
 
   const product: ProductSku = {
     sku: cleanedSku,
-    name: name || null,
+    name,
     family: family || null,
     solution_categories: parseSolutionCategories(
       findLabelValue($, labelMap.solution_categories)
