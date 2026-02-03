@@ -1,0 +1,8 @@
+[
+  {
+    "id": "example-gpu-power",
+    "match_tags": ["gpu:4"],
+    "requires": ["power:redundant"],
+    "auto_add": ["power-check"]
+  }
+]

@@ -1,0 +1,341 @@
+exports[`parseSkuPage parses sku-g8825z5.html 1`] = `
+{
+  "sku": "G8825Z5",
+  "name": "G8825Z5",
+  "family": null,
+  "solution_categories": [
+    "AI",
+    "HPC"
+  ],
+  "form_factor": "2U",
+  "node_density": null,
+  "cpu_vendor": "intel",
+  "cpu_family": "Intel Xeon",
+  "sockets": 2,
+  "memory_type": "DDR5 RDIMM",
+  "memory_slots": 24,
+  "max_memory_tb": 6,
+  "pcie_gen": "PCIe 5.0",
+  "storage_bays": [
+    {
+      "type": "8x NVMe U.2 hot-swap",
+      "count": 8,
+      "hot_swap": true
+    }
+  ],
+  "networking": {
+    "ocp_mezz": null,
+    "ocp_mezz_count": null,
+    "notes": null
+  },
+  "gpu_support": {
+    "supported": null,
+    "max_gpu_count": null,
+    "notes": null
+  },
+  "power_notes": null,
+  "cooling": {
+    "mode": "air",
+    "notes": "Air cooling"
+  },
+  "management": {
+    "bmc": true,
+    "notes": "BMC/IPMI"
+  },
+  "tags": [
+    "cpu:intel",
+    "socket:2",
+    "ddr5",
+    "rdimm",
+    "pcie:5.0",
+    "form:2u",
+    "nvme:u2"
+  ],
+  "source_url": "https://www.mitaccomputing.com/G8825Z5",
+  "last_seen_at": "2024-01-01T00:00:00.000Z",
+  "data_quality": {
+    "missing_fields": [
+      "family",
+      "node_density",
+      "networking",
+      "gpu_support",
+      "power_notes"
+    ],
+    "parse_warnings": []
+  }
+}
+`;
+
+exports[`parseSkuPage parses sku-g4826z5.html 1`] = `
+{
+  "sku": "G4826Z5",
+  "name": "G4826Z5",
+  "family": null,
+  "solution_categories": [
+    "Cloud"
+  ],
+  "form_factor": "4U",
+  "node_density": null,
+  "cpu_vendor": "amd",
+  "cpu_family": "AMD EPYC",
+  "sockets": 2,
+  "memory_type": "DDR4 RDIMM",
+  "memory_slots": 32,
+  "max_memory_tb": null,
+  "pcie_gen": "PCIe Gen4",
+  "storage_bays": [
+    {
+      "type": "12x SATA/SAS hot-swap",
+      "count": 12,
+      "hot_swap": true
+    }
+  ],
+  "networking": {
+    "ocp_mezz": true,
+    "ocp_mezz_count": 3,
+    "notes": "OCP 3.0 mezz"
+  },
+  "gpu_support": {
+    "supported": true,
+    "max_gpu_count": 4,
+    "notes": "Up to 4 GPUs"
+  },
+  "power_notes": null,
+  "cooling": {
+    "mode": null,
+    "notes": null
+  },
+  "management": {
+    "bmc": null,
+    "notes": null
+  },
+  "tags": [
+    "cpu:amd",
+    "socket:2",
+    "rdimm",
+    "pcie:gen4",
+    "form:4u",
+    "gpu:4"
+  ],
+  "source_url": "https://www.mitaccomputing.com/G4826Z5",
+  "last_seen_at": "2024-01-01T00:00:00.000Z",
+  "data_quality": {
+    "missing_fields": [
+      "family",
+      "node_density",
+      "max_memory_tb",
+      "power_notes",
+      "cooling",
+      "management"
+    ],
+    "parse_warnings": []
+  }
+}
+`;
+
+exports[`parseSkuPage parses sku-g4527z5.html 1`] = `
+{
+  "sku": "G4527Z5",
+  "name": "G4527Z5",
+  "family": null,
+  "solution_categories": [
+    "OCP"
+  ],
+  "form_factor": "1U",
+  "node_density": null,
+  "cpu_vendor": "intel",
+  "cpu_family": "Intel Xeon D",
+  "sockets": 1,
+  "memory_type": "DDR5",
+  "memory_slots": 8,
+  "max_memory_tb": null,
+  "pcie_gen": null,
+  "storage_bays": [
+    {
+      "type": "4x NVMe E1.S",
+      "count": 4,
+      "hot_swap": null
+    }
+  ],
+  "networking": {
+    "ocp_mezz": null,
+    "ocp_mezz_count": null,
+    "notes": null
+  },
+  "gpu_support": {
+    "supported": null,
+    "max_gpu_count": null,
+    "notes": null
+  },
+  "power_notes": null,
+  "cooling": {
+    "mode": "liquid-ready",
+    "notes": "Liquid ready"
+  },
+  "management": {
+    "bmc": null,
+    "notes": null
+  },
+  "tags": [
+    "cpu:intel",
+    "socket:1",
+    "ddr5",
+    "form:1u",
+    "nvme:e1s"
+  ],
+  "source_url": "https://www.mitaccomputing.com/G4527Z5",
+  "last_seen_at": "2024-01-01T00:00:00.000Z",
+  "data_quality": {
+    "missing_fields": [
+      "family",
+      "node_density",
+      "max_memory_tb",
+      "pcie_gen",
+      "networking",
+      "gpu_support",
+      "power_notes",
+      "management"
+    ],
+    "parse_warnings": []
+  }
+}
+`;
+
+exports[`parseSkuPage parses sku-g4525z5.html 1`] = `
+{
+  "sku": "G4525Z5",
+  "name": "G4525Z5",
+  "family": null,
+  "solution_categories": [
+    "ORAN"
+  ],
+  "form_factor": "2U",
+  "node_density": null,
+  "cpu_vendor": "amd",
+  "cpu_family": "AMD EPYC",
+  "sockets": 1,
+  "memory_type": "DDR5 RDIMM",
+  "memory_slots": 16,
+  "max_memory_tb": 4,
+  "pcie_gen": "PCIe 5.0",
+  "storage_bays": [
+    {
+      "type": "10x NVMe U.3",
+      "count": 10,
+      "hot_swap": null
+    }
+  ],
+  "networking": {
+    "ocp_mezz": null,
+    "ocp_mezz_count": null,
+    "notes": null
+  },
+  "gpu_support": {
+    "supported": null,
+    "max_gpu_count": null,
+    "notes": null
+  },
+  "power_notes": null,
+  "cooling": {
+    "mode": "air",
+    "notes": "Air cooling"
+  },
+  "management": {
+    "bmc": null,
+    "notes": null
+  },
+  "tags": [
+    "cpu:amd",
+    "socket:1",
+    "ddr5",
+    "rdimm",
+    "pcie:5.0",
+    "form:2u",
+    "nvme:u2"
+  ],
+  "source_url": "https://www.mitaccomputing.com/G4525Z5",
+  "last_seen_at": "2024-01-01T00:00:00.000Z",
+  "data_quality": {
+    "missing_fields": [
+      "family",
+      "node_density",
+      "networking",
+      "gpu_support",
+      "power_notes",
+      "management"
+    ],
+    "parse_warnings": []
+  }
+}
+`;
+
+exports[`parseSkuPage parses sku-g2220z5.html 1`] = `
+{
+  "sku": "G2220Z5",
+  "name": "G2220Z5",
+  "family": null,
+  "solution_categories": [
+    "AI",
+    "LiquidCooling"
+  ],
+  "form_factor": "8U",
+  "node_density": null,
+  "cpu_vendor": "intel",
+  "cpu_family": "Intel Xeon",
+  "sockets": 4,
+  "memory_type": "DDR5 RDIMM",
+  "memory_slots": 48,
+  "max_memory_tb": null,
+  "pcie_gen": "PCIe 5.0",
+  "storage_bays": [
+    {
+      "type": "24x NVMe U.2 hot-swap",
+      "count": 24,
+      "hot_swap": true
+    }
+  ],
+  "networking": {
+    "ocp_mezz": null,
+    "ocp_mezz_count": null,
+    "notes": null
+  },
+  "gpu_support": {
+    "supported": true,
+    "max_gpu_count": 8,
+    "notes": "Up to 8 GPUs"
+  },
+  "power_notes": null,
+  "cooling": {
+    "mode": null,
+    "notes": null
+  },
+  "management": {
+    "bmc": null,
+    "notes": null
+  },
+  "tags": [
+    "cpu:intel",
+    "socket:4",
+    "ddr5",
+    "rdimm",
+    "pcie:5.0",
+    "form:8u",
+    "gpu:8",
+    "nvme:u2"
+  ],
+  "source_url": "https://www.mitaccomputing.com/G2220Z5",
+  "last_seen_at": "2024-01-01T00:00:00.000Z",
+  "data_quality": {
+    "missing_fields": [
+      "family",
+      "node_density",
+      "max_memory_tb",
+      "networking",
+      "power_notes",
+      "cooling",
+      "management"
+    ],
+    "parse_warnings": []
+  }
+}
+`;
