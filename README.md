@@ -2,6 +2,11 @@
 
 TypeScript-first catalog harvester + browser for MiTAC Computing SKUs.
 
+## Requirements
+
+- Node.js 18+ (includes npm).
+- Playwright browser binaries (installed via `npx playwright install`).
+
 ## Install
 
 ```bash
@@ -13,6 +18,16 @@ npm install
 ### Windows 11 quick start (.bat)
 
 ```bat
+All-in-one setup (installs npm dependencies and Playwright browsers):
+
+```bat
+scripts\\setup.bat
+```
+
+### Windows 11 quick start (.bat)
+
+```bat
+scripts\\setup.bat
 scripts\\install.bat
 scripts\\setup-playwright.bat
 ```

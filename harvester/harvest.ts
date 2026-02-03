@@ -47,6 +47,7 @@ function isProductUrl(url: string) {
   } catch {
     return false;
   }
+  return /mitaccomputing\.com\/(products|product|solutions)\//.test(url);
 }
 
 async function main() {
@@ -57,11 +58,7 @@ async function main() {
   const fetcher = await createFetcher(cacheDir, "https://www.mitaccomputing.com");
   const visited = new Set<string>();
   const productUrls = new Set<string>();
-  const envSeeds = process.env.MITAC_HARVEST_SEEDS?.split(",")
-    .map((seed) => seed.trim())
-    .filter(Boolean);
-  const seeds = envSeeds && envSeeds.length > 0 ? envSeeds : seedUrls;
-  const queue = [...seeds];
+  const queue = [...seedUrls];
 
   while (queue.length > 0) {
     const url = queue.shift();
