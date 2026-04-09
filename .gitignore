@@ -5,3 +5,4 @@ node_modules/
 harvester/cache/*.html
 catalog/raw/*.html
 catalog/logs/*.log
+artifacts/*.xlsm
