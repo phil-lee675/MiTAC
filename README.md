@@ -76,3 +76,21 @@ scripts\\test.bat
 ```
 
 Snapshot fixtures live in `tests/fixtures/` and validate parser output.
+
+## L11 rack configurator workbook
+
+Generate the Excel workbook locally (not committed to git):
+
+```bash
+python scripts/generate_l11_rack_configurator.py
+```
+
+Default output path:
+
+- `artifacts/L11_Rack_Configurator.xlsm`
+
+Optional custom output:
+
+```bash
+python scripts/generate_l11_rack_configurator.py --output /path/to/L11_Rack_Configurator.xlsm
+```
